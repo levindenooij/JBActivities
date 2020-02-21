@@ -1,8 +1,8 @@
 {
    "workflowApiVersion": "1.1",
    "metaData": {
-       "icon": "images/icon.png",
-       "iconSmall": "images/iconSmall.png",
+       "icon": "{{CA_IMG_40}}",
+       "iconSmall": "{{CA_IMG_15}}",
        "category": "{{CATEGORY}}",
 	   "isConfigured":true
    },
@@ -40,7 +40,7 @@
    },
     "wizardSteps": "{{WIZARD_STEPS}}",   
    "edit": {
-		"url": "https://{{HEROKU_APP_NAME}}.herokuapp.com/ixn/activities/generic-activity/index.html",
+		"url": "{{CA_EDIT_URL}}",
 		"height": "{{EDIT_HEIGHT}}",
 		"width": "{{EDIT_WIDTH}}"
 	}
